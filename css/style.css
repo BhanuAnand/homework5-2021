@@ -168,12 +168,12 @@ header{
   nav{
     padding: 30px 0px;
     float: right;
-    margin-top: 50px;
   }
 
   /*Req 11*/
   .container{
-    grid-template-columns: 50px auto 500px auto 50x;
+    display: grid;
+    grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 400px 425px 425px 400px;
   }
 
